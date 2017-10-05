@@ -43,11 +43,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Facade.RealWorld.cs" />
+    <Compile Include="Facade.Structural.cs" />
+    <Compile Include="Factory.Javascript.cs" />
+    <Compile Include="Factory.RealWorld.cs" />
+    <Compile Include="Factory.Structural.cs" />
+    <Compile Include="Observer.RealWorld.cs" />
+    <Compile Include="Observer.Structural.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Strategy.RealWorld.cs" />
+    <Compile Include="Strategy.Structural.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="url.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
